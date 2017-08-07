@@ -18,13 +18,27 @@ jar {
 
 repositories {
     mavenCentral()
+    maven{url "http://jasperreports.sourceforge.net/maven2/"}
+    maven{url "http://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/"}
+}
+
+configurations {
+    jasperreports {
+        transitive = true
+    }
+}
+
+gradle.projectsEvaluated {
+    processResources.dependsOn(compileJasperReports)
 }
 
 dependencies {
     //compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
     // https://mvnrepository.com/artifact/jfree/jfreechart
     compile group: 'jfree', name: 'jfreechart', version: '1.0.13'
-    // https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports
+    compile group: 'ar.com.fdvs', name: 'DynamicJasper', version: '5.1.0'
+    jasperreports 'net.sf.jasperreports:jasperreports:5.6.0',
+            'org.codehaus.groovy:groovy-all:2.3.6'
     compile group: 'net.sf.jasperreports', name: 'jasperreports', version: '6.4.1'
     compile 'mysql:mysql-connector-java:5.1.37'
     compile 'com.github.javafaker:javafaker:0.2'
@@ -267,6 +281,18 @@ check << {
       include(name: '**/*.java')
     }
   }
+}
+
+task compileJasperReports {
+    def jasperSourceDir = file('src/main/jasper')
+    ant {
+        taskdef(name: 'jrc', classname: 'net.sf.jasperreports.ant.JRAntCompileTask', classpath: configurations.jasperreports.asPath)
+        sourceSets.main.output.classesDir.mkdirs()
+        jrc(srcdir: jasperSourceDir, destdir: sourceSets.main.output.classesDir) {
+            classpath(path: sourceSets.main.output.classesDir)
+            include(name: '**/*.jrxml')
+        }
+    }
 }
 
 task copyDeps(type: Copy) {

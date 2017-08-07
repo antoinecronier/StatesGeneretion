@@ -171,7 +171,7 @@ public class DumpFields {
 	public static Map<String, Object> fielderWithList(Object o){
 		Map<String,Object> result = new HashMap<String, Object>();
 
-		Map<String,Object>objectDump = DumpFields.fielder(o);
+		Map<String,Object> objectDump = DumpFields.fielder(o);
 		for (Entry<String, Object> item : objectDump.entrySet()) {
 			if (item.getValue().getClass().isAssignableFrom(ArrayList.class)) {
 				SubFielder(result, item);
