@@ -36,6 +36,8 @@ dependencies {
     //compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
     // https://mvnrepository.com/artifact/jfree/jfreechart
     compile group: 'jfree', name: 'jfreechart', version: '1.0.13'
+    // https://mvnrepository.com/artifact/org.apache.velocity/velocity
+    compile group: 'org.apache.velocity', name: 'velocity', version: '1.7'
     compile group: 'ar.com.fdvs', name: 'DynamicJasper', version: '5.1.0'
     jasperreports 'net.sf.jasperreports:jasperreports:5.6.0',
             'org.codehaus.groovy:groovy-all:2.3.6'
@@ -192,7 +194,7 @@ findbugsMain.finalizedBy checkFindBugsReport
 task findbugsMain (type: FindBugs, overwrite: true) {
 	ignoreFailures = true
     description 'Run findbugs'
-    classes = fileTree(classesJava) 
+    classes = fileTree(classesJava)
     source = fileTree(javasRoot)
     classpath = files(classesJava)
 
@@ -209,7 +211,7 @@ task findbugsMain (type: FindBugs, overwrite: true) {
 task findbugsTest (type: FindBugs, overwrite: true) {
 	ignoreFailures = true
     description 'Run findbugs'
-    classes = fileTree(classesJava) 
+    classes = fileTree(classesJava)
     source = fileTree(javasRoot)
     classpath = files(classesJava)
 
@@ -244,7 +246,7 @@ task pmdMain(type: Pmd, overwrite: true) {
     description 'Runs PMD inspection against Android sourcesets.'
     group = 'Code Quality'
     ruleSetFiles = files("${rootProject.rootDir}/pmd_rules.xml")
-    source = fileTree(javasRoot) 
+    source = fileTree(javasRoot)
     include '**/*.java'
     exclude '**/gen/**'
 
@@ -259,7 +261,7 @@ task pmdTest(type: Pmd, overwrite: true) {
     description 'Runs PMD inspection against Android sourcesets.'
     group = 'Code Quality'
     ruleSetFiles = files("${rootProject.rootDir}/pmd_rules.xml")
-    source = fileTree(testJavaRoot) 
+    source = fileTree(testJavaRoot)
     include '**/*.java'
     exclude '**/gen/**'
 
