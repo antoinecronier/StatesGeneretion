@@ -137,8 +137,8 @@ public class GenerateReports {
 	private void GeneratePDF(JasperPrint jasperPrint, String exportFile) {
 		try {
 			String filePath = JASPER_OUTPUT_PATH + exportFile + ".pdf";
-			JasperExportManager.exportReportToHtmlFile(jasperPrint,filePath);
-			logger.info("HTML generated to : " + filePath);
+			JasperExportManager.exportReportToPdfFile(jasperPrint,filePath);
+			logger.info("PDF generated to : " + filePath);
 		} catch (JRException e) {
 			logger.info("Error: ", e);
 		}

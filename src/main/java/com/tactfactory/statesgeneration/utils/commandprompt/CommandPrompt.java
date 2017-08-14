@@ -18,8 +18,7 @@ public class CommandPrompt {
 
 	private Scanner in = new Scanner(System.in);
 
-	public int CallIntMessage(int valMin, int valMax,
-			String message) {
+	public int CallIntMessage(int valMin, int valMax, String message) {
 
 		int result;
 
@@ -34,8 +33,7 @@ public class CommandPrompt {
 		return result;
 	}
 
-	public String CallStringMessage(String[] acceptable,
-			String message) {
+	public String CallStringMessage(String[] acceptable, String message) {
 		String result;
 		boolean isNOK = true;
 
@@ -48,7 +46,7 @@ public class CommandPrompt {
 						isNOK = false;
 					}
 				}
-			}else{
+			} else {
 				isNOK = false;
 			}
 		} while (isNOK);

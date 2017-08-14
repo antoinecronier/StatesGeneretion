@@ -47,9 +47,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcolHeader interactiveElement" data-coluuid="a868cef6-20c7-421f-9ce8-8955a41d2fa4" data-cellid="TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" data-colidx="0" style="background-color: #BFE1FF; border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcolHeader interactiveElement" data-coluuid="a868cef6-20c7-421f-9ce8-8955a41d2fa4" data-cellid="TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" data-colidx="0" style="background-color: #BFE1FF; border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">TABLE_NAME</span></td>
-<td colspan="2" class="jrcolHeader interactiveElement" data-coluuid="4b1348ac-d430-457c-87f1-e0ecda40294a" data-cellid="TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" data-colidx="1" style="background-color: #BFE1FF; border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcolHeader interactiveElement" data-coluuid="4b1348ac-d430-457c-87f1-e0ecda40294a" data-cellid="TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" data-colidx="1" style="background-color: #BFE1FF; border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">TABLE_ROWS</span></td>
 <td colspan="3">
 </td>
@@ -61,9 +61,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">attaques</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">46</span></td>
 <td colspan="3">
 </td>
@@ -73,9 +73,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">badge</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="3">
 </td>
@@ -85,9 +85,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">dresseur</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="3">
 </td>
@@ -97,9 +97,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">faiblecontre</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="3">
 </td>
@@ -109,9 +109,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">fortcontre</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="3">
 </td>
@@ -121,9 +121,9 @@
 <tr valign="top" style="height:20px">
 <td>
 </td>
-<td rowspan="2" class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td rowspan="2" class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">maitrepokemon</span></td>
-<td colspan="2" rowspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" rowspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="3">
 </td>
@@ -139,9 +139,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">pokemons</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="9">
 </td>
@@ -149,9 +149,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">typedepokemons</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="9">
 </td>
@@ -159,9 +159,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">types</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">17</span></td>
 <td colspan="9">
 </td>
@@ -169,9 +169,9 @@
 <tr valign="top" style="height:30px">
 <td>
 </td>
-<td class="jrcel cel_TABLE_NAME_351877391_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td class="jrcel cel_TABLE_NAME_999230073_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">zone</span></td>
-<td colspan="2" class="jrcel cel_TABLE_ROWS_1812823171_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
+<td colspan="2" class="jrcel cel_TABLE_ROWS_1910936570_0" data-tableuuid="feb0b0cd-0a98-4356-9537-0cf0d2a19752" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">0</span></td>
 <td colspan="9">
 </td>
@@ -186,7 +186,7 @@
 <td rowspan="2" style="text-indent: 0px; text-align: left;">
 <span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">Generate on :</span></td>
 <td colspan="2" rowspan="3" style="text-indent: 0px; text-align: left;">
-<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">août 10, 2017</span></td>
+<span style="font-family: SansSerif; color: #000000; font-size: 10px; line-height: 1.2578125;">août 14, 2017</span></td>
 <td colspan="5">
 </td>
 </tr>

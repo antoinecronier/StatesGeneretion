@@ -32,7 +32,6 @@ public class MySQLDBAccess {
 			stmt = conn.createStatement();
 			rs = stmt.executeQuery(query);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return rs;
