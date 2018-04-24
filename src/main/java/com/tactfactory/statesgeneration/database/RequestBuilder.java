@@ -11,6 +11,7 @@ public class RequestBuilder {
 
 	public String build(){
 		StringBuilder result = new StringBuilder();
+		Boolean whereNotPut = true;
 
 		RequestComposite compo = composite;
 		while (compo != null) {
@@ -20,7 +21,9 @@ public class RequestBuilder {
 			}else if(compo instanceof Table){
 				result.append(" FROM ");
 				result.append(compo.getElement());
+			}else if(whereNotPut && compo instanceof Where){
 				result.append(" WHERE");
+				result.append(" " + compo.getElement());
 			}else {
 				if (compo.getElement() != null) {
 					result.append(" " + compo.getElement());
