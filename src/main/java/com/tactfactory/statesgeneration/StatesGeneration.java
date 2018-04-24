@@ -1,6 +1,8 @@
 package com.tactfactory.statesgeneration;
 
 import java.awt.Color;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
@@ -11,7 +13,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 import net.sf.jasperreports.engine.JRException;
+import net.sf.jasperreports.engine.JasperCompileManager;
+import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
+import net.sf.jasperreports.engine.JasperReport;
+import net.sf.jasperreports.engine.design.JasperDesign;
+import net.sf.jasperreports.engine.xml.JRXmlLoader;
 import net.sf.jasperreports.view.JasperViewer;
 import ar.com.fdvs.dj.core.DynamicJasperHelper;
 import ar.com.fdvs.dj.core.layout.ClassicLayoutManager;
@@ -28,6 +35,7 @@ import ar.com.fdvs.dj.domain.constants.Stretching;
 import ar.com.fdvs.dj.domain.constants.VerticalAlign;
 import ar.com.fdvs.dj.domain.entities.columns.AbstractColumn;
 
+import com.tactfactory.statesgeneration.database.RequestBuilder;
 import com.tactfactory.statesgeneration.entities.Product;
 import com.tactfactory.statesgeneration.jasperreports.BuildReports;
 import com.tactfactory.statesgeneration.jasperreports.GenerateReports;
@@ -42,15 +50,69 @@ public class StatesGeneration {
 
 	public static void main(String[] args) {
 
-		manualReport();
+		RequestBuilder builder = new RequestBuilder();
+		String request = builder
+				.select("*")
+				.table("table1")
+					.where("i < 0")
+						.and()
+					.where("a > i")
+						.or()
+					.where(" 1 = 1")
+					.build();
 
-		// reporter1();
+		System.out.println(request);
+		// manualReport();
+		//
+		// ComplexeReport report = new ComplexeReport();
+		// report.compile();
+		//
+		 reporter1();
 		//
 		// reportJson();
 		//
 		// reportDatabase();
 		//
 		// reportComposed();
+
+		// pokemonTypes();
+
+		// Test_Landscape();
+	}
+
+	private static void Test_Landscape() {
+
+		JasperPrint jasperPrint = null;
+		Map<String, Object> parameters = new HashMap<String, Object>();
+		parameters.put("DataSet3_dateStart", "2015-01-01");
+		parameters.put("DataSet3_dateEnd", "2015-12-31");
+		parameters.put("textFieldContent", "hey hey");
+
+		try {
+			JasperDesign design = JRXmlLoader
+					.load("src\\main\\jasper\\Test_Landscape.jrxml");
+			JasperReport jasperReport = JasperCompileManager
+					.compileReport(design);
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con = DriverManager
+					.getConnection(
+							"jdbc:mysql://localhost:3306/disco?zeroDateTimeBehavior=convertToNull",
+							"root", "");
+
+			jasperPrint = JasperFillManager.fillReport(jasperReport,
+					parameters, con);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		JasperViewer.viewReport(jasperPrint);
+	}
+
+	private static void pokemonTypes() {
+		GenerateReports reports = new GenerateReports();
+		JasperViewer.viewReport(reports.generateReportWithMysqlDB(
+				"Wood_Table_Based.jrxml", "pokemonTypes",
+				JasperReportTypes.PDF, "pokemon", "root", ""));
 	}
 
 	private static void manualReport() {
@@ -69,7 +131,6 @@ public class StatesGeneration {
 		headerStyle.setStreching(Stretching.RELATIVE_TO_TALLEST_OBJECT);
 		headerStyle.setFont(Font.ARIAL_BIG_BOLD);
 		headerStyle.setRadius(20);
-
 
 		// Style column
 		final Style columnStyle = new Style();
@@ -99,8 +160,7 @@ public class StatesGeneration {
 				.setUseFullPageWidth(true)
 				.addFirstPageImageBanner(".\\resources\\pexels-photo.jpg",
 						1000, 600, ImageBanner.Alignment.Center)
-				.addAutoText("coucou", (byte)1, (byte)1)
-				.build();
+				.addAutoText("coucou", (byte) 1, (byte) 1).build();
 
 		JasperPrint jp = new JasperPrint();
 

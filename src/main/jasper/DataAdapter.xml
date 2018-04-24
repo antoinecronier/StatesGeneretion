@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>BaseDataAdapter</name><driver>com.mysql.jdbc.Driver</driver><username>root</username><password></password><savePassword>true</savePassword><url>jdbc:mysql://localhost/disco</url><database></database><serverAddress></serverAddress><classpath>C:\Users\tactfactory\workspaceLuna\GenerationDEtat\libs\mysql-connector-java-5.1.37.jar</classpath></jdbcDataAdapter>

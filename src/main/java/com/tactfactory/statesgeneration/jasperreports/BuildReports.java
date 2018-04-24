@@ -35,14 +35,39 @@ public class BuildReports {
 			ArrayList<JasperPrint> reportPrintParts) {
 
 		FastReportBuilder drb = new FastReportBuilder();
-		DynamicReport dr = drb.setTitle(title)
+		DynamicReport dr = drb
+				.setTitle(title)
 				.setSubtitle("This report was generated at " + new Date())
-				.setPrintBackgroundOnOddRows(true).setUseFullPageWidth(true)
-				.addFirstPageImageBanner(".\\resources\\pexels-photo.jpg", 1000, 600, ImageBanner.Alignment.Center)
-				.build();
+				.setPrintBackgroundOnOddRows(true)
+				.setUseFullPageWidth(true)
+				.addFirstPageImageBanner(".\\resources\\pexels-photo.jpg",
+						1000, 600, ImageBanner.Alignment.Center).build();
 
 		JasperPrint jp = new JasperPrint();
 
+		try {
+			jp = DynamicJasperHelper.generateJasperPrint(dr,
+					new ClassicLayoutManager(), new JREmptyDataSource());
+		} catch (JRException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		for (JasperPrint jasperPrint : reportPrintParts) {
+			if (jasperPrint != null) {
+				for (JRPrintPage jasperPrintPage : jasperPrint.getPages()) {
+					jp.addPage(jasperPrintPage);
+				}
+			}
+		}
+
+		return jp;
+	}
+
+	public JasperPrint generateMultiTabFromJasperPrint(DynamicReport dr, String title,
+			ArrayList<JasperPrint> reportPrintParts) {
+
+		JasperPrint jp = null;
 		try {
 			jp = DynamicJasperHelper.generateJasperPrint(dr,
 					new ClassicLayoutManager(), new JREmptyDataSource());
